@@ -12,7 +12,7 @@ import os
 
 # Load environment variables
 
-dotenv_path = '/etc/secrets/.env'
+
 load_dotenv(dotenv_path)
 
 # Define the main function
