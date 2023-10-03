@@ -13,11 +13,11 @@ import os
 # Load environment variables
 
 
-load_dotenv(dotenv_path)
+load_dotenv()
 
 # Define the main function
 def main():
-    st.header("Ask PP 💬")
+    st.header("Ask CH-AI 💬")
 
     # Upload a PDF file
     pdf = st.file_uploader("Upload your PDF", type='pdf')
